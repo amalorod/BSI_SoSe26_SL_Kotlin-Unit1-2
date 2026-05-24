@@ -34,3 +34,4 @@ include(":classesandobjects")
 include(":diceroller")
 
 
+include(":lemonade")
