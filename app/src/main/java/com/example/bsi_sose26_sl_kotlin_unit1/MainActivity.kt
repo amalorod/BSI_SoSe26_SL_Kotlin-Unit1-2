@@ -11,17 +11,20 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.bsi_sose26_sl_kotlin_unit1.ui.theme.BSI_SoSe26_SL_KotlinUnit1Theme
+import com.example.bsi_sose26_sl_kotlin_unit1.ui.theme.GreetingCardTheme
+import androidx.compose.ui.graphics.Color
+import androidx.compose.material3.Surface
+import androidx.compose.ui.unit.dp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            BSI_SoSe26_SL_KotlinUnit1Theme {
+            GreetingCardTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Alic",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -32,16 +35,18 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
+    Surface(color = Color.Cyan) {
+        Text(
+            text = "Hi, my name is $name!",
+            modifier = modifier.padding(24.dp)
+        )
+    }
 }
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    BSI_SoSe26_SL_KotlinUnit1Theme {
-        Greeting("Android")
+    GreetingCardTheme {
+        Greeting("Alic")
     }
 }
