@@ -23,7 +23,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "BSI_SoSe26_SL_Kotlin-Unit1"
-include(":app")
+include(":greetingcard")
 include(":happybirthday")
 include(":composearticle")
 include(":taskmanager")
