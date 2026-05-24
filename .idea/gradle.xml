@@ -9,10 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/businesscard" />
+            <option value="$PROJECT_DIR$/classesandobjects" />
             <option value="$PROJECT_DIR$/composearticle" />
             <option value="$PROJECT_DIR$/composequadrant" />
-            <option value="$PROJECT_DIR$/greetingcard" />
             <option value="$PROJECT_DIR$/happybirthday" />
             <option value="$PROJECT_DIR$/taskmanager" />
           </set>
