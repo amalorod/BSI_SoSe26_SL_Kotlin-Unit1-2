@@ -36,3 +36,4 @@ include(":diceroller")
 
 include(":lemonade")
 include(":calculatorapp")
+include(":artspaceapp")
