@@ -35,3 +35,4 @@ include(":diceroller")
 
 
 include(":lemonade")
+include(":calculatorapp")
