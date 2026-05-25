@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Art Space App</string>
+    <string name="title_1">Life and Death Contrasted — Or an Essay on Woman</string>
+    <string name="artist_1">Valentine Green, 1769</string>
+    <string name="title_2">Drifting ice, Spitzbergen, Norway</string>
+    <string name="artist_2">Flickr: The Commons / Library of Congress, 1890</string>
+    <string name="title_3">Arabian Ornaments of the Thirteenth Century from Cairo</string>
+    <string name="artist_3">Owen, 1865</string>
 </resources>
