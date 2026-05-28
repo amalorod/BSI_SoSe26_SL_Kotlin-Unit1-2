@@ -22,7 +22,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BSI_SoSe26_SL_Kotlin-Unit1"
+rootProject.name = "BSI_SoSe26_SL_Kotlin-Unit1-2"
 
 include(":app")
 include(":happybirthday")
